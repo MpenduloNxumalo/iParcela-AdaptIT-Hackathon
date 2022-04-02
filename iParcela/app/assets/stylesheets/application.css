@@ -13,3 +13,62 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+     background-color: #BFFCFB;
+ }
+ @font-face {
+     font-family: mpo;
+     src: url(font/MochiyPopOne-Regular.ttf);
+ }
+
+ .nav-bar{
+     display: inline;
+ }
+
+ .nav-bar-list{
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+ }
+
+ .nav-bar-list a{
+     font-size: 20px;
+     color: black;
+     font-family: mpo;
+     text-decoration: none;
+     
+ }
+
+ a.hover{
+     background-color: #FF8749;
+ }
+
+ .quote{
+     font-family: mpo;
+     font-size: 20px;
+ }
+
+ .quoteSpeaker{
+    font-family: mpo;
+    font-size: 15px;
+    color: #008080;
+ }
+
+ .donorNewsText{
+    font-family: mpo;
+    font-size: 40px;
+ }
+.itemImage{
+    width: 100%;
+    height: 100%;
+}
+.newsTitle{
+    color: #FF8749;
+    font-family: mpo;
+}
+
+.newsDescr{
+    font-family: mpo;
+
+}
